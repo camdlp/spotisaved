@@ -1,0 +1,3 @@
+https://accounts.spotify.com/authorize?client_id=e89df18acd3d476aabb1b35dd8e1dd69&response_type=code&redirect_uri=http%3A%2F%2Fmysite.com%2Fcallback%2F&scope=user-library-read%20user-library-read
+
+curl -H "Authorization: Basic ZTg5ZGYxOGFjZDNkNDc2YWFiYjFiMzVkZDhlMWRkNjk6ZjVlMWVmZGI5N2U3NDJkMDhhYjc4NTI0NmQ4OWE2NDQ=" -d grant_type=authorization_code -d code=AQC2o3cqt5pV7pVM2cim8owNM_nwtxsAG82r7n4SwLuVxSc64LDwzVeogS8HojIifKwh6WdhNFDlpA2An-l8wrOGI-OUBdp_jYMgVrcV-_IDxd-hTfkt4cp_1XUnHqm6JUmedSfDxs2VR_1C0gpa9qOxcYFtPqBir9OUdvC0PNuvzqvCZ2v0bD3KWWF0_A-f7dE -d redirect_uri=http%3A%2F%2Fmysite.com%2Fcallback%2F https://accounts.spotify.com/api/token
