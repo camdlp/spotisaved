@@ -1,6 +1,5 @@
 import requests
 import json
-
 # spotify_token = "BQArjroVIKHfXJG6kWYmPJIG32t6C7x8C1y3eUlZ-WDmqPuWjpj9mysJO1w4hDf8A5qPoz84Sxz8u_-xMncYeJ2PhXC65qFpifu5o_OUpWf5Nblo4DQ9vVPeEmJNPu1nWMjS3Ry_d-_k5ZmjGN-tQOwY_AbKfAjSIEIyha0"
 # spotify_user_id = "carlosabiamerino"
 # discover_weekly_id = "3sgGOPs7p2nvVdqxbmdoYy"
@@ -20,7 +19,7 @@ class Secrets:
     def read_config(self):
         f = open('info.json')
         data = json.load(f)
-        self.spotify_token = data["spotify_token"]
+        
         self.spotify_user_id = data["spotify_user_id"]
         self.playlist_target_id = data["playlist_target_id"]
         self.refresh_token = data["refresh_token"]
